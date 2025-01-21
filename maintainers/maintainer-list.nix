@@ -25065,6 +25065,12 @@
     githubId = 46590321;
     name = "xrelkd";
   };
+  xtechon = {
+    github = "xTechon";
+    githubId = 66335240;
+    name = "W. Daniel Hiromoto";
+    keys = [ { fingerprint = "CBC2 521B 106E 8289 4A96  7A7B 827F A854 0F64 15E2"; } ];
+  };
   xtrayambak = {
     github = "xTrayambak";
     githubId = 59499552;
