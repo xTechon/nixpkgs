@@ -16183,6 +16183,8 @@ with pkgs;
     inherit (perlPackages) PathTiny;
   };
 
+  beyond-all-reason = callPackage ../games/beyond-all-reason { };
+
   bugdom = callPackage ../games/bugdom {
     stdenv = if stdenv.hostPlatform.isDarwin then overrideSDK stdenv "11.0" else stdenv;
     inherit (darwin.apple_sdk_11_0.frameworks) IOKit Foundation OpenGL;
